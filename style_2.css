@@ -1,0 +1,76 @@
+#cv_template{
+	display: none;
+	width: 1100px;
+}
+
+#ptBtn{
+	display: none;
+}
+.my-img{
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	padding-bottom: 10px;
+	padding-top: 2px;
+}
+
+.resume_d{
+	line-height: 5px;
+}
+.row_1{
+	width: 1075px;
+	margin-left: 0px;
+}
+
+.backgroundf_1{
+	background-color: rgb(224, 224, 224);
+}
+
+
+#cnT1, #weT1, #prT, #pnT1 {
+	list-style: none;
+}
+
+
+/*======================
+PRINT FIELD
+========================*/
+@media print {
+
+  #section-to-print {
+        visibility: visible;
+  }
+  #cv_template{
+	/*display: none;*/
+	width: 1100px;
+	margin-left: 120px;
+}
+  .row_1{
+	width: 1100px;
+	
+}
+hr{
+	width: 925px;
+}
+.img_left{
+	width: 200px;
+}
+.details_right{
+	width: 725px;
+}
+.background_1{
+	width: 925px;
+}
+.detail_c{
+	width: 925px;
+}
+#cvForm1, #cvForm2{
+	display: none;
+}
+#header_1{
+	display: none;
+}
+#footer_1{
+	display: none;
+}
+}

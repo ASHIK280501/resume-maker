@@ -1,0 +1,230 @@
+.all{
+	background: url("./img/background.png") no-repeat center;
+	background-size: cover;
+	width: 100%;
+	padding: 6.375rem 0 6.375rem;
+}
+.full{
+	padding-top: 30px;
+	margin-left:5px;
+	margin-bottom: 50px;
+}
+html{
+	scroll-behavior: smooth;
+}
+.navigation-wrap{
+width: 100%;
+left: 0;
+z-index: 100;
+margin: 0px;
+-webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+.navigation-wrap .nav-item{
+padding: 0 0.625rem;
+transition: all 200ms linear;
+}
+
+.navbar-toggler:focus{
+	outline: unset;
+	border: unset;
+	box-shadow: none;
+}
+.nav-link{
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  color: blueviolet !important;
+}
+.nav-link:hover{
+	color: red;
+}
+#cv_template{
+	display: none;
+}
+.background_1{
+	background-color: rgb(173, 173, 173);
+}
+.backgroundf_1{
+	background-color: rgb(224, 224, 224);
+}
+
+.inform{
+	box-sizing: border-box;
+	border: 5px solid #43121d;
+	padding: 2rem;
+	border-radius: 2rem;
+	color: #43121d;
+	
+}
+.inform {
+	line-height: 100px;
+}
+.inform li{
+	list-style:  square;
+}
+.center{
+	text-align: center;
+	background: url("./img/background1.png") no-repeat center;
+	background-size: cover;
+	width: 100%;
+	padding: 2rem;
+}
+.inner_1{
+	display: inline-block;
+	width: 32%;
+	margin-left: 4%;
+}
+
+.my-img{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+.details{
+	line-height: 15px;
+	text-align: left;
+	width: 100%;
+	padding: 0px;
+}
+.details_a{
+	text-align: left;
+	width: 100%;
+	padding: 0px;
+	margin-top: 0px;
+}
+
+#emailT #contactT #addressT {
+	word-break: break-all;
+}
+
+#cnT1, #weT1, #prT, #pnT1 {
+	list-style: none;
+}
+
+
+
+
+
+/*======================
+PRINT FIELD
+========================*/
+@media print {
+.resume_a{
+width: 100%;
+margin-left: 60px;
+		padding: 0px;
+	}
+	.resume_d{
+		width: 800px;
+		
+	}
+ .resume_c{
+ 	width: 250px;
+ }
+ .resume_b{
+ 	width: 500px;
+ 	margin-left:10px;
+ 	margin-right: 0px;
+ }
+.details{
+	margin-left: -30px;
+	padding-left: 0px;
+width: 170px;
+}
+.details_a{
+	margin-left:-30px;
+	padding-left: 0px;
+	width: 170px;
+}
+.detail_c{
+width: 710px;
+}
+  #section-to-print {
+        visibility: visible;
+  }
+ .hr{
+ 	width: 730px;
+ }
+
+#cvForm1, #cvForm2{
+	display: none;
+}
+#header_1{
+	display: none;
+}
+#footer_1{
+	display: none;
+}
+}
+
+/* ==========================
+  Responsive Website
+============================*/
+@media (max-width: 1200px ){
+	.inner_1{
+		display: inline-block;
+		width: 70%;
+		margin-left: 30%;
+	}
+}
+
+@media (max-width: 991px ){
+	.all{
+	background: url("./img/background.png") no-repeat center;
+	background-size:cover;
+	width: 100%;
+	padding:auto;
+}
+.inform {
+line-height:0px ;
+margin: 0px;
+}
+.inform li h3{
+	font-size: 20px;
+}
+.inner_1{
+	display: inline-block;
+	width: 64%;
+	margin-left: 20%;
+}
+
+	}
+
+
+/* =============================*/
+	@media (max-width: 767px ){
+.inform{
+	line-height: 5px ;
+	border: none;
+	padding: 20px;
+	color: #43121d;	
+}
+.all{
+	background: url("./img/background1.png") no-repeat center;
+	background-size: cover;
+	width: 100%;
+	padding: 20px;
+}
+.inner_1{
+	display: inline-block;
+	width: 80%;
+	margin-left: 20%;
+}
+h3{
+	font-size: 2rem;
+}
+
+}
+
+
+
+/*===========================*/
+@media (max-width: 500px ){
+.inner_1{
+	display: inline-block;
+	width: 100%;
+	margin-left: 10%;
+}
+}

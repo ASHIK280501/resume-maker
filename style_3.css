@@ -1,0 +1,76 @@
+#cv_template{
+	display: none;
+	width: 1100px;
+}
+#ptBtn{
+	display: none;
+}
+
+.resume_d{
+	line-height: 5px;
+}
+.row_1{
+	width: 1075px;
+	margin-left: 0px;
+}
+hr{
+	color: red;
+	size: 6px;
+	width: 950px;
+}
+.detail_c{
+width: 750px;
+margin-left: 0px;
+}
+
+#cnT1, #weT1, #prT, #pnT1 {
+	list-style: none;
+}
+
+/*======================
+PRINT FIELD
+========================*/
+@media print {
+
+  #section-to-print {
+        visibility: visible;
+  }
+  #cv_template{
+	width: 950px;
+	margin-left: 80px;
+	margin-right: 100px;
+}
+
+.resume_d{
+margin-left: 0px;
+}
+.details_left{
+	width: 950px;
+	margin: auto;
+}
+hr{
+	color: red;
+	size: 6px;
+	width: 850px;
+
+}
+.detail_a{
+ width: 250px;
+}
+.detail_b{
+	width: 600px;
+}
+.detail_c{
+width: 750px;
+margin-left: 0px;
+}
+#cvForm1, #cvForm2{
+	display: none;
+}
+#header_1{
+	display: none;
+}
+#footer_1{
+	display: none;
+}
+}
